@@ -1,8 +1,8 @@
-// Hints:  Add an include guard
-// Hints:  Only function signatures in here.
-// Hints:  Don't change ANY of the function signatures.
-// Hints:  Don't forget to include the needed headers.
+#ifndef __H_STL_FUNCTIONS__
+#define __H_STL_FUNCTIONS__
 
+#include <vector>
+#include <string>
 
 /**
  * copyVec
@@ -41,3 +41,5 @@ bool containsItem(std::vector<std::string> & ourVector, std::string item);
  */
 
 std::vector<int> inBoth(std::vector<int> a, std::vector<int> b);
+
+#endif
