@@ -1,6 +1,14 @@
+/*****************************************************************
+ * Homework 2 header file for STL basic vector operations
+ *
+ * @author Evan Kiel
+ * @version 5/14/2017
+ *****************************************************************/
+
 #ifndef __H_STL_FUNCTIONS__
 #define __H_STL_FUNCTIONS__
 
+/** includes for vector and string */
 #include <vector>
 #include <string>
 
